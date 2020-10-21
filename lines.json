@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Ginza Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Ginza_Line",
+    "id": "G",
+    "lineLength": 14.3,
+    "dailyRidership": 943606,
+    "color": "#f39700",
+    "operatingSpeed": 65
+  },
+  {
+    "name": "Marunouchi Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Marunouchi_Line",
+    "id": "M",
+    "lineLength": 27.4,
+    "dailyRidership": 1159898,
+    "color": "#e60012",
+    "operatingSpeed": 75
+  },
+  {
+    "name": "Marunouchi Line Branch Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Marunouchi_Line#Branch_Line_(Honancho_Line)",
+    "id": "Mb",
+    "lineLength": 27.4,
+    "dailyRidership": 1159898,
+    "color": "#e60012",
+    "operatingSpeed": 75
+  },
+  {
+    "name": "Hibiya Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Hibiya_Line",
+    "id": "H",
+    "lineLength": 20.3,
+    "dailyRidership": 1213492,
+    "color": "#778899",
+    "operatingSpeed": 80
+  },
+  {
+    "name": "Tōzai Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_T%C5%8Dzai_Line",
+    "id": "T",
+    "lineLength": 30.8,
+    "dailyRidership": 1642378,
+    "color": "#00a7db",
+    "operatingSpeed": 100
+  },
+  {
+    "name": "Chiyoda Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Chiyoda_Line",
+    "id": "C",
+    "lineLength": 24,
+    "dailyRidership": 1447730,
+    "color": "#009944",
+    "operatingSpeed": 80
+  },
+  {
+    "name": "Yūrakuchō Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Y%C5%ABrakuch%C5%8D_Line",
+    "id": "Y",
+    "lineLength": 28.3,
+    "dailyRidership": 1124478,
+    "color": "#daa520",
+    "operatingSpeed": 80
+  },
+  {
+    "name": "Hanzōmon Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Hanz%C5%8Dmon_Line",
+    "id": "Z",
+    "lineLength": 16.8,
+    "dailyRidership": 1006682,
+    "color": "#9370db",
+    "operatingSpeed": 80
+  },
+  {
+    "name": "Namboku Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Namboku_Line",
+    "id": "N",
+    "lineLength": 21.3,
+    "dailyRidership": 522736,
+    "color": "#48d1cc",
+    "operatingSpeed": 80
+  },
+  {
+    "name": "Fukutoshin Line",
+    "url": "https://en.wikipedia.org/wiki/Tokyo_Metro_Fukutoshin_Line",
+    "id": "F",
+    "lineLength": 20.2,
+    "dailyRidership": 363654,
+    "color": "#8b4513",
+    "operatingSpeed": 80
+  },
+  {
+    "name": "Asakusa Line",
+    "url": "https://en.wikipedia.org/wiki/Toei_Asakusa_Line",
+    "id": "A",
+    "lineLength": 18.4,
+    "dailyRidership": 718855,
+    "color": "#ec6e65",
+    "operatingSpeed": 70
+  },
+  {
+    "name": "Mita Line",
+    "url": "https://en.wikipedia.org/wiki/Toei_Mita_Line",
+    "id": "I",
+    "lineLength": 26.5,
+    "dailyRidership": 638365,
+    "color": "#0079c2",
+    "operatingSpeed": 75
+  },
+  {
+    "name": "Shinjuku Line",
+    "url": "https://en.wikipedia.org/wiki/Toei_Shinjuku_Line",
+    "id": "S",
+    "lineLength": 23.5,
+    "dailyRidership": 745889,
+    "color": "#6cbb5a",
+    "operatingSpeed": 75
+  },
+  {
+    "name": "Ōedo Line",
+    "url": "https://en.wikipedia.org/wiki/Toei_%C5%8Cedo_Line",
+    "id": "E",
+    "lineLength": 40.7,
+    "dailyRidership": 933621,
+    "color": "#8b008b",
+    "operatingSpeed": 70
+  }
+]
