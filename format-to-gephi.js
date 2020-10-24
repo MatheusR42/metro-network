@@ -32,6 +32,8 @@ const getNodes = () => {
 
 const getVertices = () => {
   const vertices = []
+  const pairs = [];
+
   Object.entries(data.stations).forEach(([key, value])=> {
     const lineId = key.replace(/\d/g, '');
     const {
@@ -39,6 +41,16 @@ const getVertices = () => {
     } = getLineInfo(lineId)
 
     value.connections.forEach(item => {
+      const pairId = key+'-'+item.target_id;
+      const pairIdInverse = item.target_id+'-'+key;
+
+      if (pairs.includes(pairId) || pairs.includes(pairIdInverse)) {
+        return;
+      }
+
+      pairs.push(pairId);
+      pairs.push(pairIdInverse);
+      
       vertices.push({
         'Source': key,
         'Target': item.target_id,
