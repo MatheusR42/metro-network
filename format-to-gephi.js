@@ -33,11 +33,17 @@ const getNodes = () => {
 const getVertices = () => {
   const vertices = []
   Object.entries(data.stations).forEach(([key, value])=> {
+    const lineId = key.replace(/\d/g, '');
+    const {
+      color,
+    } = getLineInfo(lineId)
+
     value.connections.forEach(item => {
       vertices.push({
         'Source': key,
         'Target': item.target_id,
-        'Weight': item.distance
+        'Color': color,
+        'Weight': item.distance ? item.distance : 0.00001,
       })
     })
   })
@@ -51,7 +57,7 @@ const saveCSV = (name, data) => {
     header: true,
   })
 
-  fs.writeFile('./'+name+'.csv', dataText, 'utf8', function (err) {
+  fs.writeFile('./'+name+'.csv', dataText, 'utf-8', function (err) {
     console.log(err);
     if (err) {
       console.log('Some error occured - file either not saved or corrupted file saved.');
