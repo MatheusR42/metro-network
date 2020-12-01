@@ -26,5 +26,6 @@ def getEdges():
 G = nx.Graph()
 G.add_nodes_from(getNodes())
 G.add_edges_from(getEdges())
-nx.draw(G, with_labels=True)
-plt.show()
+
+print("Assortatividade de Grau = ", nx.degree_assortativity_coefficient(G))
+print("Assortatividade de Linha = ", nx.attribute_assortativity_coefficient(G, 'Line'))
